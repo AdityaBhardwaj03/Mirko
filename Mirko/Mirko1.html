@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mirko 1</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .head h2 {
+            margin-left: 50px;
+        }
+
+        .head {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/bgimg.jpg");
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        .head img {
+            height: 30px;
+        }
+
+        .content {
+            color: white;
+            margin-top: 70px;
+            margin-left: 50px;
+            display: flex;
+        }
+
+        .content h1 {
+            font-size: 5rem;
+        }
+
+        .content button {
+            padding: 10px;
+            font-size: 20px;
+            color: white;
+            background: transparent;
+            border: 3px solid white;
+            text-align: center;
+            box-shadow: 1px 1px 0px 0px, 4px 4px 0px 0px;
+        }
+
+        .content img {
+            margin-left: 150px;
+            height: 450px;
+            width: 450px;
+
+        }
+
+        .mirko {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .mirko h2 {
+            color: white;
+            margin-top: 20px;
+        }
+
+        .mirko ul {
+            display: flex;
+            list-style: none;
+            margin-right: 50px;
+        }
+
+        .mirko ul li {
+            margin-top: 20px;
+            margin-right: 30px;
+        }
+
+        .mirko ul a {
+            color: white;
+            text-decoration: none;
+        }
+
+        #home:hover {
+            background: linear-gradient(#e66465, #6b6d85);
+            font-size: 1.5rem;
+        }
+
+        .para1 {
+            margin-top: 30px;
+        }
+
+        .para2 {
+            color: white;
+            margin-top: 20px;
+            margin-left: 50px;
+        }
+
+        .mirko #but2 {
+            margin-left: -15px;
+        }
+
+        button:hover {
+            background: linear-gradient(#e66465, #6b6d85);
+
+        }
+
+        /* Media Query */
+        @media screen and (max-width:1200px) {
+            .head {
+                margin-top: 0px;
+                background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/bgimg.jpg");
+                background-size: cover;
+            }
+
+            .img img {
+                width: 300px;
+                height: 300px;
+                margin-left: 65px;
+                margin-top: 50px;
+            }
+
+            .content h1 {
+                font-size: 4rem;
+            }
+
+            .content button {
+                margin-bottom: 10px;
+                padding: 5px;
+                font-size: 15px;
+                border: 2px solid white;
+            }
+
+        }
+
+
+        @media screen and (max-width:992px) {
+            .head {
+                margin-top: 0px;
+                background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/bgimg.jpg");
+                background-size: cover;
+            }
+            .img img {
+                width: 300px;
+                height: 300px;
+                margin-left: 65px;
+                margin-top: 50px;
+            }
+
+            .content h1 {
+                font-size: 4rem;
+            }
+
+            .content button {
+                margin-bottom: 10px;
+                padding: 5px;
+                font-size: 15px;
+                border: 2px solid white;
+            }
+
+        }
+
+        @media screen and (max-width:726px) {
+            .head {
+                margin-top: 0px;
+                background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/bgimg.jpg");
+                height: 100%;
+                background-size: cover;
+            }
+
+            .img img {
+                width: 300px;
+                height: 300px;
+                margin-left: 70px;
+            }
+
+            .content h1 {
+                font-size: 3rem;
+            }
+
+            .content button {
+                padding: 5px;
+                font-size: 15px;
+                border: 2px solid white;
+            }
+
+            .mirko {
+                margin-left: 50px;
+                display: block;
+            }
+
+            .mirko h2 {
+                margin-top: 0;
+                text-align: center;
+                margin-right: 300px;
+            }
+
+            .content {
+                margin-top: 0px;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="head">
+        <div class="mirko">
+            <h2>Mirko</h2>
+
+            <ul style="color:white;">
+                <li><a href="http://127.0.0.1:5500/Mirko1.html" id="home">Home</a></li>
+                <li><a href="http://127.0.0.1:5500/Mirko2.html" id="home">About</a></li>
+                <li><a href="http://127.0.0.1:5500/Mirko3.html" id="home">Services</a></li>
+                <li><a href="" id="home">Plan</a></li>
+                <li><a href="" id="home">Drop</a></li>
+                <li><a href="" id="home">Contact</a></li>
+                <li><a href="https://www.facebook.com/"><img src="images/facebook.png" alt="fb" id="but1"></a></li>
+                <li><a href="https://twitter.com/?lang=en-in"><img src="images/twitter.png" alt="tw" id="but2"></a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="para1">
+                <h4>ABOUT US</h4>
+                <h1> We are top internet<br>service company</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor, sit amet consectetur
+                    adipisicing.<br> Facere ad soluta odio molestiae harum Lorem ipsum dolor sit amet.<br> Nobis numquam
+                    neque molestiae aliquid delectus libero, porro nesciunt quibusdam.</p><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor, sit amet consectetur
+                    adipisicing.<br> Facere ad soluta odio molestiae harum Lorem ipsum dolor sit amet.<br> Nobis numquam
+                    neque molestiae aliquid delectus libero, porro nesciunt quibusdam.</p><br>
+                <button>Learn More</button>
+            </div>
+            <div class="img">
+                <img src="images/circle.png">
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
